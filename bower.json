@@ -1,0 +1,27 @@
+{
+  "name": "styleguide",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nico Collin <nico.collin@ubisoft.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "shadydom": "webcomponents/shadydom",
+    "shadycss": "webcomponents/shadycss",
+    "custom-elements": "webcomponents/custom-elements#^1.0.0-alpha.3",
+    "webcomponentsjs": "^0.7.23"
+  },
+  "resolutions": {
+    "custom-elements": "master"
+  }
+}
